@@ -10,26 +10,23 @@ API_SECRET = "62f8ce9f74b12f84c123cc23437a4a32"
 
 __banner__ = """
        +=======================================+
-       |..........Facebook Cracker v 1.........|
+       |..........Facebook Hacking v 1.........|
        +---------------------------------------+
-       |#Author: DedSecTL <dtlily>             |
-       |#Contact: Telegram @dtlily             |
-       |#Date: Fri Feb 8 10:15:49 2019         |
-       |#This tool is made for pentesting.     |
-       |#Changing the description of this tool |
-       |Won't made you the coder ^_^ !!!       |
-       |#Respect Coderz ^_^                    |
-       |#I take no responsibilities for the    |
-       |  use of this program !                |
+       |#This Tool For Facebook Hack           |
+       | [+] Email : glitcht09@gmail.com       |
+       | [+] Telegram : GlitchT                |
        +=======================================+
-       |..........Facebook Cracker v 1.........|
+       |..........Facebook Hacking v 1.........|
        +---------------------------------------+
 """
 
-print("[+] Facebook Brute Force\n")
-userid = raw_input("[*] Enter [Email|Phone|Username|ID]: ")
+os.system('printf "\033[3;36m"') 
+os.system('figlet GFBH')
+
+print("[+] GFBH\n")
+userid = raw_input("[+] Enter [Email] [Phone] [Username] [ID]: ")
 try:
-	passlist = raw_input("[*] Set PATH to passlist: ")
+	passlist = raw_input("[+] Enter Passlist: ")
 	if os.path.exists(passlist) != False:
 		print(__banner__)
 		print(" [+] Account to crack : {}".format(userid))
@@ -50,6 +47,6 @@ try:
 				break
 		print("\n\n[!] Done .. !!")
 	else:
-		print("fbbrute: error: No such file or directory")
+		print("GFBH: Erorr.. No Such File or Directory")
 except KeyboardInterrupt:
-	print("fbbrute: error: Keyboard interrupt")
+	print("GFBH: Erorr.. Keyboard Interrupt")
