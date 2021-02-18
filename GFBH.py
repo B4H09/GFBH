@@ -9,15 +9,15 @@ import hashlib
 API_SECRET = "62f8ce9f74b12f84c123cc23437a4a32"
 
 __banner__ = """
-       +=======================================+
-       |..........Facebook Hacking v 1.........|
+       +========================================+
+       |..........Facebook Hacking v 1..........|
        +---------------------------------------+
-       |#This Tool For Facebook Hack           |
-       | [+] Email : glitcht09@gmail.com       |
-       | [+] Telegram : GlitchT                |
+       |#This Tool For Facebook Hack            |
+       | [+] Email : b4h09.Hack@gmail.com       |
+       | [+] Telegram : @B4H09                   |
        +=======================================+
-       |..........Facebook Hacking v 1.........|
-       +---------------------------------------+
+       |..........Facebook Hacking v 1..........|
+       +----------------------------------------+
 """
 
 print("[+] Glitch Facebook Hack\n")
